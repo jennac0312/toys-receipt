@@ -50,6 +50,8 @@ function Receipt(props) {
             </div>
         </div>
 
+        <img src={props.tagInfo.image} className={props.tagInfo.customer==='Michael' ? 'flip' : 'img'}></img>
+
     </div>
   )
 }
